@@ -18,7 +18,7 @@ class App extends Component {
         <p className="App-intro">
           Меня зовут <code>StrawDragon</code> и я написал этот сайт.
         </p>
-        <canvas id="game" width="600" height="300" style={{ border: '1px solid' }} />
+        <canvas id="game" width="400" height="400" style={{ border: '1px solid' }} />
       </div>
     );
   }
