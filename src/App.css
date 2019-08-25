@@ -20,3 +20,16 @@
 .App-intro {
   font-size: large;
 }
+
+.canvas-wrapper {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.canvas-wrapper canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

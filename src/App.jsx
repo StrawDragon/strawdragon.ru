@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import logo from './LOGO_XD.svg';
 import './App.css';
-import { initGame } from './utils/scene';
+import Canvas from './Canvas';
+//import { initGame } from './utils/scene';
 
 class App extends Component {
   componentDidMount() {
-    initGame();
+    // initGame();
   }
 
   render() {
@@ -18,7 +19,10 @@ class App extends Component {
         <p className="App-intro">
           Меня зовут <code>StrawDragon</code> и я написал этот сайт.
         </p>
-        <canvas id="game" width="400" height="400" style={{ border: '1px solid' }} />
+        {/* <canvas id="game" width="400" height="400" style={{ border: '1px solid' }} /> */}
+        <div id="game" className="canvas-wrapper" >
+          <Canvas />
+        </div>
       </div>
     );
   }
